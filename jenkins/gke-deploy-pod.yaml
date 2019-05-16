@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: gke-deploy
+    image: gcr.io/jenkins-gke-plugin/jenkinsagent
+    command: ['cat']
+    tty: true

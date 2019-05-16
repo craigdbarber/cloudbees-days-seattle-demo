@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudbees-day-seattle-demo
+spec:
+  selector:
+    matchLabels:
+      app: cloudbees-day-seattle-demo
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: cloudbees-day-seattle-demo
+    spec:
+      containers:
+      - name: cloudbees-day-seattle-demo
+        image: IMAGE
+        ports:
+        - containerPort: 80
