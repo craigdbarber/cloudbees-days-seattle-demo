@@ -1,6 +1,6 @@
 # cloudbees-days-seattle-demo
 This is a demo project for the [Cloudbees Days 2019 Seattle](https://www.cloudbees.com/event/cloudbees-days-seattle) event. This
-project demonstratesthe following:
+project demonstrates the following:
 
 * Jenkins running in GKE using the [Kubernetes Plugin](https://github.com/jenkinsci/kubernetes-plugin)
 
